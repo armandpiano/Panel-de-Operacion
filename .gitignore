@@ -1,0 +1,22 @@
+# Dependencias de Node (Frontend y Backend)
+**/node_modules/
+**/dist/
+**/build/
+
+# Archivos de NestJS / TypeScript
+**/tsconfig.build.json
+**/.nx/
+**/coverage/
+
+# Variables de entorno (¡Muy importante no subirlas!)
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Docker y Logs
+**/*.log
+**/docker-data/
+
+# IDEs (VS Code / Mac)
+.vscode/
+.DS_Store
